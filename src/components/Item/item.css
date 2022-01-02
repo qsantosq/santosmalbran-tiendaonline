@@ -1,0 +1,41 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(189, 188, 186);
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.contenedor-tituloItems{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin-top: 0;
+    border-bottom: 1px solid;
+}
+
+.contenedor-imagen{
+    height: 80px;
+}
+
+.contenedor-precio{
+    height: 50px;
+    margin-top: 80px;
+}
+
+.img-prod{
+    width: 150px;
+    margin-top: 20px;
+}

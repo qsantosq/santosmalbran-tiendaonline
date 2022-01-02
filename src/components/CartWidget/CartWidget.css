@@ -1,0 +1,18 @@
+.container-CartWidget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 35px;
+    margin-left: 0;
+}
+.cart{
+    color: rgb(54, 111, 255);
+    font-size: 20px;
+    margin: auto 5px;
+}
+
+.contador{
+    color: rgb(54, 111, 255);
+    margin: auto 5px;
+}
