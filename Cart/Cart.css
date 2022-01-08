@@ -1,0 +1,38 @@
+.contenedor-carrito{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+h3{
+    font-size: 14px;
+}
+.contenedor-detalles{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(189, 189, 189);
+    width: 800px;
+    height: 200px;
+
+}
+
+.contenedor-img-carrito{
+    width: 400px;
+    height: 200px;
+}
+.imagen-carrito{
+    height: 100%;
+}
+
+.boton-carrito{
+    margin-top: 5px;
+    width: 310px;
+    height: 40px;
+    border: solid 1px rgb(41, 56, 169);
+    border-radius: 10px;
+    color: rgb(41, 56, 169);
+}
