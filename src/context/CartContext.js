@@ -13,7 +13,7 @@ export const Provider = ({children}) => {
     };
 
 
-    const totalPrice = () => {
+    const total = () => {
 
         let precio = 0;
 
@@ -62,7 +62,7 @@ export const Provider = ({children}) => {
 
     return (
 
-        <CartContext.Provider value={{carro, addItem, remove, clear, totalPrice}}>
+        <CartContext.Provider value={{carro, addItem, remove, clear, total}}>
             {children}
         </CartContext.Provider>
 

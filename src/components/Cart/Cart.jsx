@@ -9,7 +9,7 @@ import "./Cart.css";
 
 
 const Cart = () => {
-  const { carro, remove, clear, totalPrice } = useContext(CartContext);
+  const { carro, remove, clear, total } = useContext(CartContext);
   const [ sihayItems, setSihayItems] = useState(false);
   const [proceso, setProceso] = useState(false);
   const [formulario, setFormulario] = useState({ name: "", email: "" });
@@ -99,9 +99,9 @@ const orden = () => {
 
             </div>
           ))}
-                 <p>
-                                Total: $ {totalPrice()}
-                </p>
+                 <h3>
+                    Total: $ {total()}
+                </h3>
           <button className="boton-carrito" onClick={clear}>
             Limpiar
           </button>
