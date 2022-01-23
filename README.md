@@ -21,15 +21,15 @@
 
 To start developing:
 
-1- Write in the console git clone https://github.com/qsantosq/santosmalbran-tiendaonline.\
-2- Find the folder.\
-3- Once opened, you must install the dependencies used in the project with the 'npm install' command.\
+1- Write in the console git clone https://github.com/qsantosq/santosmalbran-tiendaonline. \
+2- Find the folder. \
+3- Once opened, you must install the dependencies used in the project with the 'npm install' command.\ 
 4- You must create a database, I recommend using firebase with the following instructions:\
   a- Create a collection items\
   b- Generate id automatically\
   c- The fields have these names and values: categoria [string]  | nombre [string] | description [string] | img [string] |  precio [number] | stock [number]\
 5- Then create a .env file with the credentials obtained from firebase as follows \
-6- Start the project by typing in the console npm run start or npm start\
+6- Start the project by typing in the console npm run start or npm start
 
 ## Available Scripts
 
