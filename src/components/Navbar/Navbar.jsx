@@ -17,7 +17,6 @@ const Navbar = ( ) => {
         })
     }, [])
    
-    console.log("estas son las categorias" + categorias)
 
 
     return (

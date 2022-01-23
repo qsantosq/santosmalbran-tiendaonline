@@ -33,7 +33,7 @@ const ItemCount = ({onConfirm, maxQuantity}) => {
                 </button>
             </div>
 
-            <button class="agregar-carrito" onClick={() => onConfirm(onAdd)}>
+            <button className="agregar-carrito" onClick={() => onConfirm(onAdd)}>
                 Agregar a carrito
             </button>
 

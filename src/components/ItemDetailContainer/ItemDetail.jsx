@@ -8,7 +8,6 @@ import CartContext from "../../context/CartContext";
 
 
 const ItemDetail = ( { productos }) => {
-    console.log("Aca este es el producto en ItemDetail", productos)
     const [boton, setBoton] = useState(true);
     
     const {addItem} = useContext(CartContext)
