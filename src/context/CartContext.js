@@ -45,7 +45,6 @@ export const Provider = ({children}) => {
     };
 
 
-
     const remove = (id) => {
       const borrar = carro.filter((productos) => productos.id !== id)
       alert("se borro un producto del carrito")

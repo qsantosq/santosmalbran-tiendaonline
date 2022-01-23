@@ -8,7 +8,6 @@ import {collection, getDocs, query, where} from "firebase/firestore";
     const ItemListContainer = () => {
   
     const [productos, setProductos] = React.useState([])
-    // const [loading, setLoading] = React.useState(true)
     const {categoriaId} = useParams();
     console.log(categoriaId);
 
@@ -33,7 +32,6 @@ import {collection, getDocs, query, where} from "firebase/firestore";
             })
         }
  
-        //z setLoading(true)     
    
         return (() => {
             setProductos([])
@@ -41,10 +39,7 @@ import {collection, getDocs, query, where} from "firebase/firestore";
         
     }, [categoriaId])
 
-    //  if (loading){
-    //      return <h1>Loading..</h1>
-    //  }
- 
+
     return (
 
         <div>

@@ -25,7 +25,7 @@ const Navbar = ( ) => {
             <header className="contenedor-header">
 
                 <div className="contenedor-logo">
-                <img src={require("../../assest/logo.png").default} className="logo" />
+                <img src={require("../../assest/logo.png").default}  alt="logo" className="logo" />
                 </div>
 
                 <div className="contenedor-incio">

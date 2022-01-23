@@ -23,15 +23,13 @@ const ItemDetail = ( { productos }) => {
         
         )
         }else{
-
-                 
                   const Count = ItemCount;
                   const onAdd = (Count) =>{
-                     alert("Se agregaron la cantidad de " + Count + " " + productos.name + " al carrito" )
-                     console.log("Se agregaron la cantidad de " + Count + productos.name)
+                     alert("Se agregaron la cantidad de " + Count + " " + productos.nombre + " al carrito" )
+                     console.log("Se agregaron la cantidad de " + Count + productos.nombre)
                      addItem(productos, Count);
                      setBoton(false);
-                    }  
+            }  
             
             return(
                 <div className="contenedor-caja">

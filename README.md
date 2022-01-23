@@ -1,6 +1,35 @@
+<h1 align="center">Hi, I'm Santos Malbran</h1>
+<h3 align="center">I'm studying react js to improve my skills in the frontend area</h3>
+
+- 🔭 I’m currently working on [santosmalbran-tiendaonline](https://github.com/qsantosq/santosmalbran-tiendaonline)
+
+- 🌱 I’m currently learning **ReactJS (Props, Navigation, Context, Firebase-Firestore and more)**
+
+- 👨‍💻 All of my projects are available at [https://github.com/qsantosq/](https://github.com/qsantosq)
+
+
+<h3 align="left">Contact me:</h3>
+<p align="left">
+<a href="https://www.linkedin.com/in/santos-malbran-9bb418191/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/santos-malbran-9bb418191/" height="30" width="40" /></a>
+</p>
+
+- 📫 How to reach me **malbran.santos@gmail.com**
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Create React App](https://github.com/facebook/create-react-app).
+
+To start developing:
+
+1- Write in the console git clone https://github.com/qsantosq/santosmalbran-tiendaonline
+2- Find the folder
+3- Once opened, you must install the dependencies used in the project with the 'npm install' command.
+4- You must create a database, I recommend using firebase with the following instructions:
+  a- Create a collection items
+  b- Generate id automatically
+  c- The fields have these names and values: categoria [string]  | nombre [string] | description [string] | img [string] |  precio [number] | stock [number]
+5- Then create a .env file with the credentials obtained from firebase as follows 
+6- Start the project by typing in the console npm run start or npm start
 
 ## Available Scripts
 

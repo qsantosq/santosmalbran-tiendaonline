@@ -11,11 +11,11 @@ const Item = ({ productos }) => {
             <div className="contenedor-items">
 
                 <div className="contenedor-tituloItems">
-                    <h2> {productos.name} </h2>
+                    <h2> {productos.nombre} </h2>
                 </div>
 
                 <div className="contenedor-imagen"> 
-                    <img src={productos.img} alt={productos.name} className="img-prod" /> 
+                    <img src={productos.img} alt={productos.nombre} className="img-prod" /> 
                 </div>
 
                 <div className="contenedor-precio"> 

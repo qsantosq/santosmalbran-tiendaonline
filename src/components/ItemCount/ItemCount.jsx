@@ -5,12 +5,11 @@ const ItemCount = ({onConfirm, maxQuantity}) => {
 
         const [onAdd, setOnAdd] = React.useState(1)
     
-        //funcion sumar
         const sumar = () => {
             if ( onAdd < maxQuantity){
                 setOnAdd (onAdd + 1);}
         }
-        //funcion restar
+        
         const restar = () => {
             if ( onAdd >= 2){
                 setOnAdd (onAdd - 1);}

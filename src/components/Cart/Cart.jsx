@@ -2,7 +2,7 @@ import { useContext } from "react";
 import CartContext from "../../context/CartContext";
 import {useEffect, useState} from "react";
 import {Link} from "react-router-dom"; 
-import {addDoc, collection, Timestamp,   writeBatch,
+import {addDoc, collection,  writeBatch,
   doc, getDoc, getFirestore} from "firebase/firestore"
 import "./Cart.css";
 
@@ -84,7 +84,7 @@ const orden = () => {
                 </div>
     
                 <div>
-                  <h3>Nombre del producto: {productos.name}</h3>
+                  <h3>Nombre del producto: {productos.nombre}</h3>
                   <h3>Precio del producto: {productos.precio}</h3>
                   <h3>Cantidad a pedir: {productos.cantidad}</h3>
 

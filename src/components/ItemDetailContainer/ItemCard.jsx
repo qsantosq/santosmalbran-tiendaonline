@@ -9,10 +9,10 @@ const ItemCard = ({productos}) => {
 
              <h1> Detalle del producto </h1>
             <div className="contenedor-detalle">
-                  <img src={productos.img} alt={productos.name} className="img-detalle" />
+                  <img src={productos.img} alt={productos.nombre} className="img-detalle" />
                     <div className="contenedor-desc">
-                          <h2 className="titulo">{productos.name}</h2>
-                         <p className="desc">{productos.description}</p>
+                          <h2 className="titulo">{productos.nombre}</h2>
+                         <p className="desc">{productos.descripcion}</p>
                     <div>
                         <div className="contenedor-precio">
                             <div className="precio">
