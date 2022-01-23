@@ -31,6 +31,17 @@ To start developing:
 5- Then create a .env file with the credentials obtained from firebase as follows \
 6- Start the project by typing in the console npm run start or npm start
 
+## Dependencies used
+
+### React router dom
+
+To navigate in the application use React-router-dom:
+
+We install the React Router library, which is what will allow us to navigate in our application in a more orderly and appropriate way
+
+You can find documentation at:  
+https://reactrouter.com/docs/en/v6/getting-started/overview.
+
 ## Available Scripts
 
 In the project directory, you can run:
